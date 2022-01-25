@@ -1,0 +1,39 @@
+{
+  "site": {
+    "NAMSAN": {
+      "site": "NAMSAN",
+      "SignalStatus": 0,
+      "SDRStatus": 0,
+      "generate": 0,
+      "reboot": 0
+    }
+  },
+  "device": {
+    "GNSS01": {
+      "site": "NAMSAN",
+      "deviceID": "GNSS01",
+      "power": 1,
+      "sdr": 1,
+      "generate": 0,
+      "Elapse": 0,
+      "availGPS": 9,
+      "availGLO": 5,
+      "lat": "37.54374",
+      "lng": "127.00021",
+      "hei": "90"
+    },
+    "GNSS28": {
+      "site": "NAMSAN",
+      "deviceID": "GNSS28",
+      "power": 1,
+      "sdr": 1,
+      "generate": 0,
+      "Elapse": 0,
+      "availGPS": 9,
+      "availGLO": 5,
+      "lat": "37.55475",
+      "lng": "126.99366",
+      "hei": "90"
+    }
+  }
+}
