@@ -25,12 +25,12 @@ const ButtonCell = (props) => {
             textTransform: "none",
           }}
           color="success"
-          onClick={() => {
-            fetch("HTTP://localhost" + props.url, {
-              method: "PUT",
-              mode: "cors",
-            }).then((res) => console.log(res.json()));
-          }}
+          // onClick={() => {
+          //   fetch("HTTP://localhost" + props.url, {
+          //     method: "PUT",
+          //     mode: "cors",
+          //   }).then((res) => console.log(res.json()));
+          // }}
         >
           {props.text}
         </Button>
